@@ -1,0 +1,998 @@
+fileFormatVersion: 2
+guid: fdcaa970340ab6d4c838f43bc3a1b8ee
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: RokokoGuy_Head
+    100004: RokokoGuy_HeadEnd
+    100006: RokokoGuy_Hips
+    100008: RokokoGuy_LeftArm
+    100010: RokokoGuy_LeftFoot
+    100012: RokokoGuy_LeftForeArm
+    100014: RokokoGuy_LeftHand
+    100016: RokokoGuy_LeftHandEnd
+    100018: RokokoGuy_LeftIndex01
+    100020: RokokoGuy_LeftIndex02
+    100022: RokokoGuy_LeftIndex03
+    100024: RokokoGuy_LeftIndex04
+    100026: RokokoGuy_LeftLeg
+    100028: RokokoGuy_LeftMiddle01
+    100030: RokokoGuy_LeftMiddle02
+    100032: RokokoGuy_LeftMiddle03
+    100034: RokokoGuy_LeftMiddleEnd
+    100036: RokokoGuy_LeftPinky01
+    100038: RokokoGuy_LeftPinky02
+    100040: RokokoGuy_LeftPinky03
+    100042: RokokoGuy_LeftPinkyEnd
+    100044: RokokoGuy_LeftRing01
+    100046: RokokoGuy_LeftRing02
+    100048: RokokoGuy_LeftRing03
+    100050: RokokoGuy_LeftRingEnd
+    100052: RokokoGuy_LeftShoulder
+    100054: RokokoGuy_LeftThumb01
+    100056: RokokoGuy_LeftThumb02
+    100058: RokokoGuy_LeftThumb03
+    100060: RokokoGuy_LeftThumbEnd
+    100062: RokokoGuy_LeftToe
+    100064: RokokoGuy_LeftToeEnd
+    100066: RokokoGuy_LeftUpLeg
+    100068: RokokoGuy_Neck
+    100070: RokokoGuy_RightArm
+    100072: RokokoGuy_RightFoot
+    100074: RokokoGuy_RightForeArm
+    100076: RokokoGuy_RightHand
+    100078: RokokoGuy_RightHandEnd
+    100080: RokokoGuy_RightIndex005
+    100082: RokokoGuy_RightIndex006
+    100084: RokokoGuy_RightIndex007
+    100086: RokokoGuy_RightIndex008
+    100088: RokokoGuy_RightLeg
+    100090: RokokoGuy_RightMiddle004
+    100092: RokokoGuy_RightMiddle005
+    100094: RokokoGuy_RightMiddle006
+    100096: RokokoGuy_RightMiddleEnd001
+    100098: RokokoGuy_RightPinky004
+    100100: RokokoGuy_RightPinky005
+    100102: RokokoGuy_RightPinky006
+    100104: RokokoGuy_RightPinkyEnd001
+    100106: RokokoGuy_RightRing004
+    100108: RokokoGuy_RightRing005
+    100110: RokokoGuy_RightRing006
+    100112: RokokoGuy_RightRingEnd001
+    100114: RokokoGuy_RightShoulder
+    100116: RokokoGuy_RightThumb004
+    100118: RokokoGuy_RightThumb005
+    100120: RokokoGuy_RightThumb006
+    100122: RokokoGuy_RightThumbEnd001
+    100124: RokokoGuy_RightToe
+    100126: RokokoGuy_RightToeEnd
+    100128: RokokoGuy_RightUpLeg
+    100130: RokokoGuy_Spine
+    100132: RokokoGuy_Spine2
+    400000: //RootNode
+    400002: RokokoGuy_Head
+    400004: RokokoGuy_HeadEnd
+    400006: RokokoGuy_Hips
+    400008: RokokoGuy_LeftArm
+    400010: RokokoGuy_LeftFoot
+    400012: RokokoGuy_LeftForeArm
+    400014: RokokoGuy_LeftHand
+    400016: RokokoGuy_LeftHandEnd
+    400018: RokokoGuy_LeftIndex01
+    400020: RokokoGuy_LeftIndex02
+    400022: RokokoGuy_LeftIndex03
+    400024: RokokoGuy_LeftIndex04
+    400026: RokokoGuy_LeftLeg
+    400028: RokokoGuy_LeftMiddle01
+    400030: RokokoGuy_LeftMiddle02
+    400032: RokokoGuy_LeftMiddle03
+    400034: RokokoGuy_LeftMiddleEnd
+    400036: RokokoGuy_LeftPinky01
+    400038: RokokoGuy_LeftPinky02
+    400040: RokokoGuy_LeftPinky03
+    400042: RokokoGuy_LeftPinkyEnd
+    400044: RokokoGuy_LeftRing01
+    400046: RokokoGuy_LeftRing02
+    400048: RokokoGuy_LeftRing03
+    400050: RokokoGuy_LeftRingEnd
+    400052: RokokoGuy_LeftShoulder
+    400054: RokokoGuy_LeftThumb01
+    400056: RokokoGuy_LeftThumb02
+    400058: RokokoGuy_LeftThumb03
+    400060: RokokoGuy_LeftThumbEnd
+    400062: RokokoGuy_LeftToe
+    400064: RokokoGuy_LeftToeEnd
+    400066: RokokoGuy_LeftUpLeg
+    400068: RokokoGuy_Neck
+    400070: RokokoGuy_RightArm
+    400072: RokokoGuy_RightFoot
+    400074: RokokoGuy_RightForeArm
+    400076: RokokoGuy_RightHand
+    400078: RokokoGuy_RightHandEnd
+    400080: RokokoGuy_RightIndex005
+    400082: RokokoGuy_RightIndex006
+    400084: RokokoGuy_RightIndex007
+    400086: RokokoGuy_RightIndex008
+    400088: RokokoGuy_RightLeg
+    400090: RokokoGuy_RightMiddle004
+    400092: RokokoGuy_RightMiddle005
+    400094: RokokoGuy_RightMiddle006
+    400096: RokokoGuy_RightMiddleEnd001
+    400098: RokokoGuy_RightPinky004
+    400100: RokokoGuy_RightPinky005
+    400102: RokokoGuy_RightPinky006
+    400104: RokokoGuy_RightPinkyEnd001
+    400106: RokokoGuy_RightRing004
+    400108: RokokoGuy_RightRing005
+    400110: RokokoGuy_RightRing006
+    400112: RokokoGuy_RightRingEnd001
+    400114: RokokoGuy_RightShoulder
+    400116: RokokoGuy_RightThumb004
+    400118: RokokoGuy_RightThumb005
+    400120: RokokoGuy_RightThumb006
+    400122: RokokoGuy_RightThumbEnd001
+    400124: RokokoGuy_RightToe
+    400126: RokokoGuy_RightToeEnd
+    400128: RokokoGuy_RightUpLeg
+    400130: RokokoGuy_Spine
+    400132: RokokoGuy_Spine2
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 4
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: RokokoGuy_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftThumb01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftThumb02
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftThumb03
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftIndex01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftIndex02
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftIndex03
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftMiddle01
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftMiddle02
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftMiddle03
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftRing01
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftRing02
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftRing03
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftPinky01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftPinky02
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_LeftPinky03
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightThumb004
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightThumb005
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightThumb006
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightIndex005
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightIndex006
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightIndex007
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightMiddle004
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightMiddle005
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightMiddle006
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightRing004
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightRing005
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightRing006
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightPinky004
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightPinky005
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RokokoGuy_RightPinky006
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: DeathBack(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_Hips
+      parentName: DeathBack(Clone)
+      position: {x: 0, y: 0.99788755, z: -0.000000043949587}
+      rotation: {x: -0.017132124, y: -0.0053343074, z: -0.0075174156, w: 0.9998108}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftUpLeg
+      parentName: RokokoGuy_Hips
+      position: {x: -0.090768285, y: -0.0000011382413, z: 0.00018911043}
+      rotation: {x: -0.030520137, y: 0.7144882, z: 0.034881122, w: 0.69811064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftLeg
+      parentName: RokokoGuy_LeftUpLeg
+      position: {x: 0.0000014111117, y: -0.45392603, z: -0.00000020975985}
+      rotation: {x: 0.02120643, y: 0.004448979, z: 0.03314108, w: 0.9992158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftFoot
+      parentName: RokokoGuy_LeftLeg
+      position: {x: -0.0000010279307, y: -0.42407405, z: -0.00000050444754}
+      rotation: {x: 0.5086622, y: 0.46838436, z: -0.51665634, w: 0.50492084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftToe
+      parentName: RokokoGuy_LeftFoot
+      position: {x: 0.00000038146976, y: -0.14937931, z: 0.091052994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftToeEnd
+      parentName: RokokoGuy_LeftToe
+      position: {x: -0, y: -0.07313927, z: 0.00000016177594}
+      rotation: {x: 0.0000007162477, y: 0.000001192093, z: -0.00000014106388, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightUpLeg
+      parentName: RokokoGuy_Hips
+      position: {x: 0.09077012, y: -0.0000013658896, z: 0.00018915557}
+      rotation: {x: -0.007091083, y: -0.7371121, z: -0.002776171, w: 0.6757276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightLeg
+      parentName: RokokoGuy_RightUpLeg
+      position: {x: -0.0000012490241, y: -0.4539261, z: 0.0000014111113}
+      rotation: {x: 0.017043665, y: -0.021028493, z: -0.02901146, w: 0.99921256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightFoot
+      parentName: RokokoGuy_RightLeg
+      position: {x: 0.0000014229223, y: -0.42407393, z: 0.00000040926867}
+      rotation: {x: 0.47961688, y: -0.49141172, z: 0.511866, w: 0.5162125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightToe
+      parentName: RokokoGuy_RightFoot
+      position: {x: 0.00000016212458, y: -0.14937994, z: 0.09105313}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightToeEnd
+      parentName: RokokoGuy_RightToe
+      position: {x: -0.000000009536739, y: -0.07313841, z: 0.00000006407501}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_Spine
+      parentName: RokokoGuy_Hips
+      position: {x: 0.000000042641712, y: 0.093331076, z: 0.0000012958055}
+      rotation: {x: -0.034659117, y: -0.015371344, z: 0.9992689, w: -0.0049152607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_Spine2
+      parentName: RokokoGuy_Spine
+      position: {x: -0.000000060485036, y: -0.2641301, z: -0.0000006980936}
+      rotation: {x: -0.01537177, y: 0.034659065, z: 0.0049161604, w: 0.9992689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftShoulder
+      parentName: RokokoGuy_Spine2
+      position: {x: 0.033992484, y: -0.25253978, z: 0.00020020577}
+      rotation: {x: -0.036901854, y: -0.08968478, z: 0.7155405, w: 0.69180685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftArm
+      parentName: RokokoGuy_LeftShoulder
+      position: {x: -0, y: -0.1661181, z: 0.0000024686262}
+      rotation: {x: 0.019927107, y: 0.7794795, z: 0.0025907678, w: 0.62610525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftForeArm
+      parentName: RokokoGuy_LeftArm
+      position: {x: 0.00000041907347, y: -0.29481384, z: -0.00000015326115}
+      rotation: {x: -0.019105507, y: -0.031051008, z: 0.01584437, w: 0.9992096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftHand
+      parentName: RokokoGuy_LeftForeArm
+      position: {x: 0.00000040845438, y: -0.26540768, z: -0.0000007666006}
+      rotation: {x: -0.013618742, y: -0.088139415, z: -0.010734259, w: 0.9959572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftHandEnd
+      parentName: RokokoGuy_LeftHand
+      position: {x: 0.0000003986241, y: -0.19377668, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftIndex01
+      parentName: RokokoGuy_LeftHand
+      position: {x: -0.030855281, y: -0.08946655, z: 0.00000015322487}
+      rotation: {x: 0.0000011491079, y: 0.0000002384197, z: 0.0000009518121, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftIndex02
+      parentName: RokokoGuy_LeftIndex01
+      position: {x: 0.00000007780951, y: -0.04214313, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftIndex03
+      parentName: RokokoGuy_LeftIndex02
+      position: {x: -0, y: -0.027061125, z: 0.0000001532249}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftIndex04
+      parentName: RokokoGuy_LeftIndex03
+      position: {x: -0, y: -0.022093346, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftMiddle01
+      parentName: RokokoGuy_LeftHand
+      position: {x: -0.0094878385, y: -0.0960314, z: 0}
+      rotation: {x: 0.0000011491079, y: 0.0000002384197, z: 0.0000009518121, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftMiddle02
+      parentName: RokokoGuy_LeftMiddle01
+      position: {x: 0.0000000769117, y: -0.04347664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftMiddle03
+      parentName: RokokoGuy_LeftMiddle02
+      position: {x: -2.9926733e-10, y: -0.028086735, z: 0.0000001532249}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftMiddleEnd
+      parentName: RokokoGuy_LeftMiddle03
+      position: {x: -0, y: -0.027248137, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftPinky01
+      parentName: RokokoGuy_LeftHand
+      position: {x: 0.028143963, y: -0.08620837, z: 0}
+      rotation: {x: 0.0000011491079, y: 0.0000002384197, z: 0.0000009518121, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftPinky02
+      parentName: RokokoGuy_LeftPinky01
+      position: {x: 0.00000007661244, y: -0.030805558, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftPinky03
+      parentName: RokokoGuy_LeftPinky02
+      position: {x: -0, y: -0.01852627, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftPinkyEnd
+      parentName: RokokoGuy_LeftPinky03
+      position: {x: -0, y: -0.02128968, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftRing01
+      parentName: RokokoGuy_LeftHand
+      position: {x: 0.009760964, y: -0.09441372, z: 0}
+      rotation: {x: 0.0000011491079, y: 0.0000002384197, z: 0.0000009518121, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftRing02
+      parentName: RokokoGuy_LeftRing01
+      position: {x: 0.000000074218306, y: -0.037600163, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftRing03
+      parentName: RokokoGuy_LeftRing02
+      position: {x: -0, y: -0.025558371, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftRingEnd
+      parentName: RokokoGuy_LeftRing03
+      position: {x: -0, y: -0.025510566, z: 0.0000001532249}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftThumb01
+      parentName: RokokoGuy_LeftHand
+      position: {x: -0.02311053, y: -0.027522253, z: 0.023262445}
+      rotation: {x: 0.07030107, y: 0.36761525, z: -0.3691029, w: 0.85069376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftThumb02
+      parentName: RokokoGuy_LeftThumb01
+      position: {x: -0, y: -0.0421431, z: -0.00000007661246}
+      rotation: {x: 0.000000014901159, y: -0.000000014901159, z: 0.000000007450581,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftThumb03
+      parentName: RokokoGuy_LeftThumb02
+      position: {x: -0, y: -0.02706121, z: 0.00000007661246}
+      rotation: {x: 0.000000014901159, y: -0.000000014901159, z: 0.000000007450581,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_LeftThumbEnd
+      parentName: RokokoGuy_LeftThumb03
+      position: {x: -0, y: -0.029130396, z: -0.00000007661246}
+      rotation: {x: 0.000000014901159, y: -0.000000014901159, z: 0.000000007450581,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_Neck
+      parentName: RokokoGuy_Spine2
+      position: {x: 0.000000005625528, y: -0.25253978, z: 0.0001421515}
+      rotation: {x: 0.0061115674, y: -0.062032, z: -0.0059820837, w: 0.9980375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_Head
+      parentName: RokokoGuy_Neck
+      position: {x: 0.00000015916348, y: -0.09299991, z: 0.00005984054}
+      rotation: {x: 0.006113506, y: -0.062032025, z: -0.0059814067, w: 0.9980375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_HeadEnd
+      parentName: RokokoGuy_Head
+      position: {x: 0.0000007984905, y: -0.21700004, z: -0.000012897284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightShoulder
+      parentName: RokokoGuy_Spine2
+      position: {x: -0.03399102, y: -0.25253978, z: 0.0002002117}
+      rotation: {x: 0.057291675, y: -0.026779996, z: -0.7208826, w: 0.69016576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightArm
+      parentName: RokokoGuy_RightShoulder
+      position: {x: 0.00000030614504, y: -0.1654839, z: -0.01447558}
+      rotation: {x: -0.02054053, y: 0.75082797, z: 0.0015370058, w: -0.6601765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightForeArm
+      parentName: RokokoGuy_RightArm
+      position: {x: -0.000000088604125, y: -0.2948139, z: 0.00000045978354}
+      rotation: {x: 0.006519621, y: -0.004960842, z: 0.0013313665, w: 0.99996555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightHand
+      parentName: RokokoGuy_RightForeArm
+      position: {x: 0.00000008863836, y: -0.26540807, z: -0.00000045996114}
+      rotation: {x: -0.038054716, y: 0.16354503, z: -0.0281808, w: 0.98539877}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightHandEnd
+      parentName: RokokoGuy_RightHand
+      position: {x: 0.000000032321246, y: -0.19377895, z: 0.00000015322667}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightIndex005
+      parentName: RokokoGuy_RightHand
+      position: {x: 0.03085571, y: -0.08946774, z: 0.00000030645333}
+      rotation: {x: 0.0000000874218, y: -0.00000071525625, z: -0.0000017494027, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightIndex006
+      parentName: RokokoGuy_RightIndex005
+      position: {x: 0.00000007541626, y: -0.042143606, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightIndex007
+      parentName: RokokoGuy_RightIndex006
+      position: {x: -0, y: -0.027061433, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightIndex008
+      parentName: RokokoGuy_RightIndex007
+      position: {x: -0, y: -0.022093598, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightMiddle004
+      parentName: RokokoGuy_RightHand
+      position: {x: 0.009488025, y: -0.096032664, z: 0.00000015322667}
+      rotation: {x: 0.0000000874218, y: -0.00000071525625, z: -0.0000017494027, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightMiddle005
+      parentName: RokokoGuy_RightMiddle004
+      position: {x: 0.00000007661335, y: -0.043477137, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightMiddle006
+      parentName: RokokoGuy_RightMiddle005
+      position: {x: -0, y: -0.028087055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightMiddleEnd001
+      parentName: RokokoGuy_RightMiddle006
+      position: {x: -0, y: -0.027248446, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightPinky004
+      parentName: RokokoGuy_RightHand
+      position: {x: -0.028144201, y: -0.08620938, z: 0.00000015322667}
+      rotation: {x: 0.0000000874218, y: -0.00000071525625, z: -0.0000017494027, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightPinky005
+      parentName: RokokoGuy_RightPinky004
+      position: {x: 0.00000007182501, y: -0.030805908, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightPinky006
+      parentName: RokokoGuy_RightPinky005
+      position: {x: -0, y: -0.01852648, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightPinkyEnd001
+      parentName: RokokoGuy_RightPinky006
+      position: {x: -0.000000004788334, y: -0.021289922, z: 0.00000015322668}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightRing004
+      parentName: RokokoGuy_RightHand
+      position: {x: -0.009760997, y: -0.094414964, z: 0.00000030645333}
+      rotation: {x: 0.0000000874218, y: -0.00000071525625, z: -0.0000017494027, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightRing005
+      parentName: RokokoGuy_RightRing004
+      position: {x: 0.00000007661335, y: -0.03760059, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightRing006
+      parentName: RokokoGuy_RightRing005
+      position: {x: -0, y: -0.025558662, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightRingEnd001
+      parentName: RokokoGuy_RightRing006
+      position: {x: -0, y: -0.025510857, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightThumb004
+      parentName: RokokoGuy_RightHand
+      position: {x: 0.023110868, y: -0.027522573, z: 0.023262717}
+      rotation: {x: 0.037786305, y: -0.37934664, z: 0.36448678, w: 0.8495986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightThumb005
+      parentName: RokokoGuy_RightThumb004
+      position: {x: -0, y: -0.042143635, z: 0}
+      rotation: {x: -0.000000014901163, y: 1.1102233e-16, z: 0.0000000074505815, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightThumb006
+      parentName: RokokoGuy_RightThumb005
+      position: {x: -0, y: -0.027061371, z: 0}
+      rotation: {x: -0.000000014901163, y: 1.1102233e-16, z: 0.0000000074505815, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RokokoGuy_RightThumbEnd001
+      parentName: RokokoGuy_RightThumb006
+      position: {x: 0.00000015322667, y: -0.029130777, z: 0}
+      rotation: {x: -0.000000014901163, y: 1.1102233e-16, z: 0.0000000074505815, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

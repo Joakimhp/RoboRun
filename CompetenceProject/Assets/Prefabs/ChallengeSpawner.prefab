@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1330136193365416}
+  m_IsPrefabAsset: 1
+--- !u!1 &1330136193365416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4128948964424456}
+  - component: {fileID: 114855193564321144}
+  - component: {fileID: 65683657574451900}
+  - component: {fileID: 54639908783008066}
+  m_Layer: 0
+  m_Name: ChallengeSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4128948964424456
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330136193365416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54639908783008066
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330136193365416}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 118
+  m_CollisionDetection: 0
+--- !u!65 &65683657574451900
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330136193365416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114855193564321144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330136193365416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554dd2e1858d89148ae4a54871ca3ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialEnvironmentPrefabs: 3
+  nextLevelTarget: 5
+  nextLevelTracker: 0
+  newChallengeMaxEntry: 5
+  player: {fileID: 0}
+  remainingRoadPrefabs:
+  - {fileID: 1582723494031558, guid: 4f60a22b40b72c743913d00acc3071f0, type: 2}
+  - {fileID: 1204045593867478, guid: a95350931563c1f45a21e08b9efec5cb, type: 2}
+  - {fileID: 1233142187323712, guid: 44eecfdc4390fce429d91b2ef9f582ac, type: 2}
+  - {fileID: 1045521567328162, guid: 201a7446f61db78489a7246bc8b61ba8, type: 2}
+  - {fileID: 1068157217621414, guid: b9711e9866fbb7e4b8571cd19e3d0db6, type: 2}
+  - {fileID: 1325173604644168, guid: 0fa3529539198c14fa99efad57f5874c, type: 2}
+  - {fileID: 1628240536198638, guid: f171f3031c7811a409957aaba4cf8831, type: 2}
+  - {fileID: 1625060563053934, guid: e04a502509fa67d4097172c4bfe7502f, type: 2}
+  - {fileID: 1832858255271302, guid: 4f49eca95b4306e44affcf324baab01d, type: 2}
+  - {fileID: 1236550334257462, guid: 0a23c69e86fed3242b3d408c490f7c65, type: 2}
+  - {fileID: 1958320497003420, guid: 410a3e9c0269de74e895bcaeaa560340, type: 2}
+  - {fileID: 1681102144138910, guid: 7840ea06fc0e2aa4db8620ad0335e2ba, type: 2}
+  - {fileID: 1103979790031536, guid: d66065e7038402e40845a22e6ea2a1cc, type: 2}
+  - {fileID: 1702333397733888, guid: c23453ca7a2fd1c45b54e536f56d6552, type: 2}
+  - {fileID: 1650327235956602, guid: 4b92248baf840714b925290c4b11b1f9, type: 2}
+  currentRoadPrefabs: []

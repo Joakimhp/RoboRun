@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1294648622014048}
+  m_IsPrefabAsset: 1
+--- !u!1 &1294648622014048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4584411697843496}
+  - component: {fileID: 114583086384925688}
+  m_Layer: 0
+  m_Name: AudioBank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4584411697843496
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1294648622014048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114583086384925688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1294648622014048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5286aaaf2a01a134598c22b0772b78f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDeath: {fileID: 8300000, guid: 656d2deb037c37c499a64547ddd4f06e, type: 3}
+  playerFootsteps:
+  - {fileID: 8300000, guid: e33f0393ec9db7041aa64b584f36459c, type: 3}
+  - {fileID: 8300000, guid: 7df3c9e78d42c6246a50585222e10053, type: 3}
+  - {fileID: 8300000, guid: 14248d7e36655ca48991625810ab6be4, type: 3}
+  - {fileID: 8300000, guid: 1a4f182cf9a2e084188d6b7d20b8f2d2, type: 3}
+  - {fileID: 8300000, guid: cd2f7db40c31eaf4fbaa68239dbadd62, type: 3}
+  - {fileID: 8300000, guid: ffa6804136ccdde4caf787a66d41e2d9, type: 3}
+  - {fileID: 8300000, guid: d440299cec8bb344aa8faa466b9ff379, type: 3}
+  - {fileID: 8300000, guid: 11a7cdbb08767404eb2c4fa0082f7e1d, type: 3}
+  - {fileID: 8300000, guid: dd1578b5e1dce1f4eaf8218ff9b4c030, type: 3}
+  - {fileID: 8300000, guid: 9c2910b0bea678b4b87c6eb607519757, type: 3}
+  enemyFootsteps:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: e33f0393ec9db7041aa64b584f36459c, type: 3}
+  - {fileID: 8300000, guid: 7df3c9e78d42c6246a50585222e10053, type: 3}
+  - {fileID: 8300000, guid: 14248d7e36655ca48991625810ab6be4, type: 3}
+  - {fileID: 8300000, guid: 1a4f182cf9a2e084188d6b7d20b8f2d2, type: 3}
+  - {fileID: 8300000, guid: cd2f7db40c31eaf4fbaa68239dbadd62, type: 3}
+  - {fileID: 8300000, guid: ffa6804136ccdde4caf787a66d41e2d9, type: 3}
+  - {fileID: 8300000, guid: d440299cec8bb344aa8faa466b9ff379, type: 3}
+  - {fileID: 8300000, guid: 11a7cdbb08767404eb2c4fa0082f7e1d, type: 3}
+  - {fileID: 8300000, guid: dd1578b5e1dce1f4eaf8218ff9b4c030, type: 3}
+  - {fileID: 8300000, guid: 9c2910b0bea678b4b87c6eb607519757, type: 3}
+  collectibleDeath: {fileID: 8300000, guid: 8796f2e94193f254d809449ccebba0d3, type: 3}
