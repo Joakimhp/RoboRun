@@ -36,12 +36,14 @@ public class ChallengeSpawner : MonoBehaviour {
             int _newChallengeMaxEntry = newChallengeMaxEntry;
             for (int i = 0; i < initialEnvironmentPrefabs; i++) {
                 int randomEntry = Random.Range(0, _newChallengeMaxEntry);
+
                 activeChalleges.Add(challengeCandidates[randomEntry]);
                 challengeCandidates.RemoveAt(randomEntry);
                 _newChallengeMaxEntry -= 1;
             }
             for (int i = 0; i < activeChalleges.Count; i++) {
-                GameObject spawn = Instantiate(activeChalleges[i], new Vector3(0, 0, (26 * 3) + ((26 * i))), Quaternion.identity);
+                Vector3 spawnPosition = new Vector3(0, 0, (26 * 3) + ((26 * i)));
+                GameObject spawn = Instantiate(activeChalleges[i], spawnPosition, Quaternion.identity);
                 }
         }
         else {
@@ -72,6 +74,7 @@ public class ChallengeSpawner : MonoBehaviour {
 
     private void SwapEnvironment() {
         activeChalleges.RemoveAt(0);
+
         int _randomEntry = Random.Range(0, newChallengeMaxEntry);
         activeChalleges.Add(challengeCandidates[_randomEntry]);
         challengeCandidates.RemoveAt(_randomEntry);

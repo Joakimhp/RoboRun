@@ -60,7 +60,6 @@ public class EnemyBehavour : MonoBehaviour {
                 float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
                 float distanceToPlayerNorm = distanceToPlayer / maxAllowedDistanceToPlayer;
 
-
                 newPosition.z = Mathf.Clamp(
                     playerSprintSpeed * distanceToPlayerNorm, 
                     playerSprintSpeed * minAllowedSpeedScale, 
